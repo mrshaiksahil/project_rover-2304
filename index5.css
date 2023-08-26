@@ -1,0 +1,157 @@
+
+  body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  
+    
+    
+  }
+  
+  
+  
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('index5-bg.jpg')  ;
+    background-size: cover;
+  
+   
+  }
+  body::before{
+    opacity: 0.06 px;
+  }
+  /* Header Styles */
+  header {
+    background-color: #385468;
+    color: #fff;
+    padding: 10px 0;
+    
+  }
+  
+  nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+               
+    @import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Phudu&display=swap');
+   
+    font-family: 'Barriecito', cursive;
+  
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-right: 20px;
+    padding-left:50px;
+    padding-right: 10px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  #homecolor{
+    background-color: #536f72;
+  }
+
+  .nav-links li a:hover{
+  background-color: #536f72;
+}
+.nav-links li a{
+  padding:8px;
+  border:solid;
+  border-color: #f7f7f7;
+  border-radius:8px;
+  border:none;
+  
+}
+.main-block h3{
+   
+    padding-top: 40px;
+    padding-left: 800px;
+    font-size: xx-large;
+    font-family:'Courier New', Courier, monospace;
+    text-shadow: 2px 3px 3px rgb(85, 81, 81);
+
+}
+.main-block-left h3{
+    position: absolute;
+    top:111px;
+    padding-top: 0px;
+    padding-left: 80px;
+    font-size: xx-large;
+    font-family:'Courier New', Courier, monospace;
+    text-shadow: 1px 1px 1px rgb(85, 81, 81);
+
+}
+.main-block-right h3{
+    position: absolute;
+    top:111px;
+    padding-top: 0px;
+    padding-left: 1448px;
+    font-size: xx-large;
+    font-family:'Courier New', Courier, monospace;
+    text-shadow: 1px 1px 1px rgb(85, 81, 81);
+
+}
+#options{
+    width: 450px;
+    margin-left: 750px;
+    position:absolute;
+    top:200px;
+    height:50px;
+    /*padding-left:200px;*/
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border-radius: 44px;
+    box-shadow: 10px 5px 5px rgb(85, 81, 81);
+    border:none;
+  
+}
+
+#options-l{
+    width: 450px;
+    margin-left: 28px;
+    position:absolute;
+    top:200px;
+    height:50px;
+    /*padding-left:200px;*/
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border-radius: 44px;
+    box-shadow: 10px 5px 5px rgb(85, 81, 81);
+    border:none;
+  
+}
+
+
+
+#options-r{
+    width: 450px;
+    margin-left: 1408px;
+    position:absolute;
+    top:200px;
+    height:50px;
+    /*padding-left:200px;*/
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border-radius: 44px;
+    box-shadow: 10px 5px 5px rgb(85, 81, 81);
+    border:none;
+  
+}
+#options:hover{
+    background-color:#f5eded;
+}

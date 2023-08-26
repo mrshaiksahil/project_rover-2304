@@ -1,0 +1,151 @@
+
+body, h1, h2, h3, p {
+margin: 0;
+padding: 0;
+}
+
+/* Global Styles */
+body {
+font-family: Arial, sans-serif;
+background-color: #f7f7f7;
+}
+
+/* Header Styles */
+header {
+background-color: #385468;
+color: #fff;
+padding: 10px 0;
+
+}
+
+nav {
+max-width: 1200px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 20px;
+}
+
+.logo {
+font-size: 24px;
+font-weight: bold;
+     
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Phudu&display=swap');
+
+font-family: 'Barriecito', cursive;
+
+}
+
+.nav-links li {
+display: inline;
+margin-right: 20px;
+padding-left:50px;
+padding-right: 10px;
+
+}
+
+.nav-links a {
+color: #fff;
+text-decoration: none;
+}
+
+/* Hero Section Styles */
+.hero {
+background-image: url('hero.jpg');
+background-size: cover;
+background-position: center;
+text-align: center;
+color: #4e6079;
+padding: 100px 0;
+}
+body{
+background-color:rgb(227, 230, 233);
+}
+
+.hero h1 {
+font-size: 48px;
+margin-bottom: 20px;
+}
+h2{
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Phudu&display=swap');
+
+font-family: 'Barriecito', cursive;
+}
+
+.hero p {
+font-size: 18px;
+margin-bottom: 30px;
+}
+
+.btn {
+background-color: #509aa2;
+color: #fff;
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 5px;
+transition: background-color 0.3s;
+}
+
+.btn:hover {
+background-color: #252c30;
+}
+
+/* Destinations Section Styles */
+.destinations {
+max-width: 1200px;
+
+margin: 0 auto;
+padding: 40px 20px;
+}
+
+.destination {
+margin: 20px;
+
+text-align: center;
+}
+
+.destination video {
+max-width: 100%;
+border-radius: 5px;
+}
+
+.destination h3 {
+font-size: 24px;
+margin-top: 10px;
+}
+
+/* Footer Styles */
+footer {
+text-align: center;
+padding: 20px;
+background-color: #333;
+color: #fff;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+nav {
+flex-direction: column;
+text-align: center;
+}
+
+.nav-links li {
+margin: 10px 0;
+padding:8px;
+}
+}
+
+.nav-links li a:hover{
+background-color: #536f72;
+}
+.nav-links li a{
+padding:8px;
+border:solid;
+border-color: #f7f7f7;
+border-radius:8px;
+border:none;
+
+}
+
+

@@ -1,0 +1,84 @@
+
+  body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+  
+    
+    
+  }
+  
+  
+  
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('contact-img.jpg')   ;
+    background-size: cover;
+  
+   
+  }
+  body::before{
+    opacity: 0.06 px;
+  }
+  /* Header Styles */
+  header {
+    background-color: #385468;
+    color: #fff;
+    padding: 10px 0;
+    
+  }
+  
+  nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+               
+    @import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Phudu&display=swap');
+   
+    font-family: 'Barriecito', cursive;
+  
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-right: 20px;
+    padding-left:50px;
+    padding-right: 10px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  #homecolor{
+    background-color: #536f72;
+  }
+
+  .nav-links li a:hover{
+  background-color: #536f72;
+}
+.nav-links li a{
+  padding:8px;
+  border:solid;
+  border-color: #f7f7f7;
+  border-radius:8px;
+  border:none;
+  
+}
+.para{
+    margin-top:100px;
+    text-align: center;
+    font-size: xx-large;
+    color:#ffffff
+
+}
+
